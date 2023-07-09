@@ -18,4 +18,9 @@ app.get('/sean', (req,res) => {res.send("Hello Sean")}); 
 
 app.get('/bobbert', (req,res) => {res.send("Bob is short for Bobbert")}); 
 
+//sending these back from git
+app.get('/Jane', (req,res) => {res.send("Hello Jane")}); 
+
+app.get('/Thurston', (req,res) => {res.send("Hello Thurston")}); 
+
 app.listen(port, ()=>console.log("Listening"));
